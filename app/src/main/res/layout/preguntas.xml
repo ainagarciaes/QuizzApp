@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q1"
+            android:textColor="@android:color/primary_text_dark"
+            android:padding="16dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:src="@drawable/et" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/rg1"
+            android:layout_width="match_parent"
+            android:paddingLeft="32dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb11"
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:buttonTint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:text="@string/Q14" />
+
+            <RadioButton
+                android:id="@+id/rb12"
+                android:layout_width="match_parent"
+                android:buttonTint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif"
+                android:layout_height="wrap_content"
+                android:text="@string/Q12" />
+
+            <RadioButton
+                android:id="@+id/rb13"
+                android:layout_width="match_parent"
+                android:buttonTint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif"
+                android:layout_height="wrap_content"
+                android:text="@string/Q13" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:text="@string/Q2"
+            android:textColor="@android:color/primary_text_dark"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cb21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"
+            android:buttonTint="@android:color/white"
+            android:text="@string/Q21"
+            android:textColor="@android:color/white"/>
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cb22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"
+            android:buttonTint="@android:color/white"
+            android:text="@string/Q22"
+            android:textColor="@android:color/white"/>
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cb23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"
+            android:buttonTint="@android:color/white"
+            android:text="@string/Q23"
+            android:textColor="@android:color/white"/>
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cb24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"
+            android:buttonTint="@android:color/white"
+            android:text="@string/Q24"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:textAllCaps="true"
+            android:layout_height="wrap_content"
+            android:text="@string/Q3"
+            android:textColor="@android:color/primary_text_dark"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-condensed"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:src="@drawable/sf" />
+        <EditText
+            android:id="@+id/et3"
+            android:lines="1"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/white"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:textAllCaps="true"
+            android:layout_height="wrap_content"
+            android:text="@string/Q4"
+            android:textColor="@android:color/primary_text_dark"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/rg4"
+            android:layout_width="match_parent"
+            android:paddingLeft="32dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb41"
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:buttonTint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:layout_height="match_parent"
+                android:text="@string/Q41" />
+
+            <RadioButton
+                android:id="@+id/rb42"
+                android:layout_width="match_parent"
+                android:buttonTint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif"
+                android:layout_height="wrap_content"
+                android:text="@string/Q42" />
+
+            <RadioButton
+                android:id="@+id/rb43"
+                android:layout_width="match_parent"
+                android:buttonTint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif"
+                android:layout_height="wrap_content"
+                android:text="@string/Q43" />
+        </RadioGroup>
+        <TextView
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q5"
+            android:textColor="@android:color/primary_text_dark"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:src="@drawable/gb" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/rg5"
+            android:layout_width="match_parent"
+            android:paddingLeft="32dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb51"
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:buttonTint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:text="@string/Q51" />
+
+            <RadioButton
+                android:id="@+id/rb52"
+                android:layout_width="match_parent"
+                android:buttonTint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif"
+                android:layout_height="wrap_content"
+                android:text="@string/Q52" />
+
+            <RadioButton
+                android:id="@+id/rb53"
+                android:layout_width="match_parent"
+                android:buttonTint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif"
+                android:layout_height="wrap_content"
+                android:text="@string/Q53" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:text="@string/Q6"
+            android:textColor="@android:color/primary_text_dark"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-condensed"/>
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cb61"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"
+            android:buttonTint="@android:color/white"
+            android:text="@string/Q61"
+            android:textColor="@android:color/white"/>
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cb62"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"
+            android:buttonTint="@android:color/white"
+            android:text="@string/Q62"
+            android:textColor="@android:color/white"/>
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cb63"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"
+            android:buttonTint="@android:color/white"
+            android:text="@string/Q63"
+            android:textColor="@android:color/white"/>
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cb64"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"
+            android:buttonTint="@android:color/white"
+            android:text="@string/Q64"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:textAllCaps="true"
+            android:layout_height="wrap_content"
+            android:text="@string/Q7"
+            android:textColor="@android:color/primary_text_dark"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-condensed"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:src="@drawable/rr" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/rg7"
+            android:layout_width="match_parent"
+            android:paddingLeft="32dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb71"
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:buttonTint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:text="@string/Q71" />
+
+            <RadioButton
+                android:id="@+id/rb72"
+                android:layout_width="match_parent"
+                android:buttonTint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif"
+                android:layout_height="wrap_content"
+                android:text="@string/Q72" />
+
+            <RadioButton
+                android:id="@+id/rb73"
+                android:layout_width="match_parent"
+                android:buttonTint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif"
+                android:layout_height="wrap_content"
+                android:text="@string/Q73" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q8"
+            android:textColor="@android:color/primary_text_dark"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-condensed"/>
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/rg8"
+            android:layout_width="match_parent"
+            android:paddingLeft="32dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb81"
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:buttonTint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:text="@string/Q81" />
+
+            <RadioButton
+                android:id="@+id/rb82"
+                android:layout_width="match_parent"
+                android:buttonTint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif"
+                android:layout_height="wrap_content"
+                android:text="@string/Q82" />
+
+            <RadioButton
+                android:id="@+id/rb83"
+                android:layout_width="match_parent"
+                android:buttonTint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif"
+                android:layout_height="wrap_content"
+                android:text="@string/Q83" />
+        </RadioGroup>
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:textAllCaps="true"
+            android:layout_height="wrap_content"
+            android:text="@string/Q9"
+            android:textColor="@android:color/primary_text_dark"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:src="@drawable/cf" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/rg9"
+            android:layout_width="match_parent"
+            android:paddingLeft="32dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb91"
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:buttonTint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:text="@string/Q91" />
+
+            <RadioButton
+                android:id="@+id/rb92"
+                android:layout_width="match_parent"
+                android:buttonTint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif"
+                android:layout_height="wrap_content"
+                android:text="@string/Q92" />
+
+            <RadioButton
+                android:id="@+id/rb93"
+                android:layout_width="match_parent"
+                android:buttonTint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif"
+                android:layout_height="wrap_content"
+                android:text="@string/Q93" />
+        </RadioGroup>
+        <TextView
+            android:textAllCaps="true"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q10"
+            android:textColor="@android:color/primary_text_dark"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-condensed"/>
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/rg10"
+            android:layout_width="match_parent"
+            android:paddingLeft="32dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb101"
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:buttonTint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:text="@string/Q101" />
+
+            <RadioButton
+                android:id="@+id/rb102"
+                android:layout_width="match_parent"
+                android:buttonTint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif"
+                android:layout_height="wrap_content"
+                android:text="@string/Q102" />
+
+            <RadioButton
+                android:id="@+id/rb103"
+                android:layout_width="match_parent"
+                android:buttonTint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif"
+                android:layout_height="wrap_content"
+                android:text="@string/Q103" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/start"
+            android:onClick="finish_quiz"
+            android:layout_margin="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="64dp"
+            android:fontFamily="sans-serif"
+            android:text="FINISH"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>

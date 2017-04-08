@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">QuizzApp</string>
+
+    <string name="Q1">1. Who gave the french the Eiffel Tower?</string>
+    <string name="Q11">Belgium</string>
+    <string name="Q12">Germany</string>
+    <string name="Q13">The United States</string>
+    <string name="Q14">They built it by themselves</string>
+
+    <string name="Q2">2. Which of these statements are true?</string>
+    <string name="Q21">The Eiffel Tower height varies between summer and winter</string>
+    <string name="Q22">Mount Everest is the world\'s tallest mountain</string>
+    <string name="Q23">Taj-Mahal is a mausoleum</string>
+    <string name="Q24">The Great Wall of China is more than 20.000km long</string>
+
+    <string name="Q3">3. Where is the Stone Forest? (hint: country)</string>
+
+    <string name="Q4">4. How many platforms does the Shinjuku station have? (Japan)</string>
+    <string name="Q41">16</string>
+    <string name="Q42">36</string>
+    <string name="Q43">24</string>
+
+    <string name="Q5">5. How many liters of beer per year does an average german drink?</string>
+    <string name="Q51">90</string>
+    <string name="Q52">230</string>
+    <string name="Q53">120</string>
+
+    <string name="Q6">6. Which islands are close to Mexico?</string>
+    <string name="Q61">Cozumel</string>
+    <string name="Q62">Delfín</string>
+    <string name="Q63">Cerralvo</string>
+    <string name="Q64">Cedros</string>
+
+    <string name="Q7">7. Where is the longest train line?</string>
+    <string name="Q71">Rusia</string>
+    <string name="Q72">China</string>
+    <string name="Q73">Brasil</string>
+
+    <string name="Q8">8. How many types of spiders are there in Australia?</string>
+    <string name="Q81">300</string>
+    <string name="Q82">700</string>
+    <string name="Q83">1500</string>
+
+    <string name="Q9">9. What is the capital city of Canada?</string>
+    <string name="Q91">Toronto</string>
+    <string name="Q92">Vancouver</string>
+    <string name="Q93">Ottawa</string>
+
+    <string name="Q10">10. Which city has more inhabitants?</string>
+    <string name="Q101">Prague</string>
+    <string name="Q102">Berlin</string>
+    <string name="Q103">London</string>
+
+</resources>
